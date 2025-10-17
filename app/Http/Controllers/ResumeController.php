@@ -13,8 +13,13 @@ class ResumeController extends Controller
     {
 
         $resume = Storage::disk('resume')->get('resume.json');
+        $resumeData = json_decode($resume, true);
 
-        dd($resume);
-        return view('resume');
+        return view(
+            'resume',
+            [
+                'resumeData' => $resumeData,
+            ]
+        );
     }
 }
