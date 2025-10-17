@@ -7,6 +7,6 @@
     <title>Resume</title>
 </head>
 <body>
-    Hello Phan Tan Cuong
+    Hello {{$resumeData['basics']['name']}}
 </body>
 </html>
