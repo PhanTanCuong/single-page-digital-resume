@@ -7,6 +7,12 @@
     <title>Resume</title>
 </head>
 <body>
-    Hello {{$resumeData['basics']['name']}}
+    @php
+        /** 
+         * @var \App\DataObjects\Resume $resume 
+         * 
+        */
+    @endphp
+    Hello {{$resume->basics->name}}, I used to work at{{$resume->work[0]->name}}
 </body>
 </html>
