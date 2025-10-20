@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Response;
 
 use Illuminate\Http\Request;
 
@@ -43,6 +44,25 @@ class ResumeController extends Controller
             'resume',
             [
                 'resume' => $resume,
+            ]
+        );
+    }
+
+    //Download the CV function
+    public function download()
+    {
+
+        $filePath = public_path('storage\CV_PhanTanCuong.pdf');
+
+        if (!$filePath) {
+            abort(404, 'CV File not Found!');
+        }
+
+        return Response::download(
+            $filePath,
+            'Phan_Tan_Cuong_Resume.pdf',
+            [
+                'Content-Type' => 'application/pdf',
             ]
         );
     }
