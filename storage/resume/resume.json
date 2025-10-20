@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "PHAN TAN CUONG",
-    "label": "Web developer and Automotive Tester",
+    "label": "Web developer and Automative Tester",
     "image": "/images/profile image.jpg",
     "email": "phantancuong2002@gmail.com",
     "phone": "0971 642 642",
@@ -43,7 +43,7 @@
     },
     {
       "name": "McGaaw Company",
-      "position": "Automotive Tester",
+      "position": "Automative Tester",
       "url": "https://www.innova.com/",
       "startDate": "2023-03-01",
       "endDate": "2024-06-30",

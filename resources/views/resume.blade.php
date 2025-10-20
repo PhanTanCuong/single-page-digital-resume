@@ -71,9 +71,9 @@
     </x-slot:header>
 
     <!-- Download Resume Button -->
-    {{-- @if($allowDownload)
+    {{-- @if($allowDownload) --}}
         <x-download-resume-button />
-    @endif --}}
+    {{-- @endif --}}
 
     <!-- Main Content -->
     <div class="pt-16 grid gap-y-16">
