@@ -69,7 +69,26 @@
     }
   ],
   "awards": [],
-  "certificates": [],
+  "certificates": [
+    {
+        "name": "GOOGLE CLOUD FUNDAMENTALS: BIG DATA & MACHINE LEARNING",
+        "date": "2023-02-02",
+        "issuer": "Google-Cloud Ace",
+        "url": "/images/2.JPG"
+    },
+    {
+      "name": "Software Develope with Scrum",
+      "date": "2023-10",
+      "issuer": "Axon Active",
+      "url": "/images/1.JPG"
+  },
+    {
+        "name": "GOOGLE CLOUD FUNDAMENTALS: CORE INFRACSTRUCTURES",
+        "date": "2022-11-24",
+        "issuer": "Google-Cloud Ace",
+        "url": "/images/3.JPG"
+    }
+],
   "publications": [],
   "skills": [
     {

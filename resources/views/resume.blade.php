@@ -36,9 +36,9 @@
                                 </x-contact-item>
                             @endif
 
-                            @if($resume->basics->location->city && $resume->basics->location->region)
+                            @if($resume->basics->location->address && $resume->basics->location->city)
                                 <x-contact-item
-                                    :text="$resume->basics->location->city . ', ' . $resume->basics->location->region">
+                                    :text="$resume->basics->location->address . ', ' . $resume->basics->location->city">
                                     <x-slot:icon>
                                         <svg class="w-4 h-4 stroke-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
@@ -214,6 +214,23 @@
                         </x-section-card>
                     @endforeach
                 </div>
+            </section>
+        @endif
+
+        <!-- Certificates Section -->
+        @if(!empty($resume->certificates))
+            <section>
+                <x-section-header
+                    title="Certificates"
+                    icon-color="from-cyan-500 to-blue-600">
+                    <x-slot:icon>
+                        <svg class="w-6 h-6 text-white stroke-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.59 14.37 12 16.5l-3.59-2.13m7.18 0L12 12.25m3.59 2.12V7.5L12 5.25 8.41 7.5v6.87M12 12.25 8.41 10.5m7.18 0L12 12.25" />
+                        </svg>
+                    </x-slot:icon>
+                </x-section-header>
+
+                <x-certificate-gallery :certificates="$resume->certificates" />
             </section>
         @endif
     </div>
