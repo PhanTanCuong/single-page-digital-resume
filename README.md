@@ -100,39 +100,39 @@ single-page-digital-resume/
    php artisan serve
    ```
 
-   Visit `http://localhost:8000` to see your resume!
+   Visit `http://localhost:8000` to see my resume!
 
-## 📝 Customizing Your Resume
+## 📝 Customizing my Resume
 
 ### 1. Update Resume Data
 
-Edit the `storage/resume/resume.json` file with your information:
+Edit the `storage/resume/resume.json` file with my information:
 
 ```json
 {
   "basics": {
-    "name": "Your Name",
-    "label": "Your Professional Title",
-    "image": "/images/your-photo.jpg",
-    "email": "your.email@example.com",
-    "phone": "Your Phone Number",
-    "summary": "Your professional summary...",
+    "name": "my Name",
+    "label": "my Professional Title",
+    "image": "/images/my-photo.jpg",
+    "email": "my.email@example.com",
+    "phone": "my Phone Number",
+    "summary": "my professional summary...",
     "location": {
-      "city": "Your City",
-      "region": "Your Region",
+      "city": "my City",
+      "region": "my Region",
       "countryCode": "US"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "url": "https://linkedin.com/in/yourprofile"
+        "url": "https://linkedin.com/in/myprofile"
       }
     ]
   },
   "work": [
     {
       "name": "Company Name",
-      "position": "Your Position",
+      "position": "my Position",
       "startDate": "2023-01-01",
       "endDate": "2024-01-01",
       "summary": "Job description...",
@@ -149,14 +149,14 @@ Edit the `storage/resume/resume.json` file with your information:
 }
 ```
 
-### 2. Add Your Profile Image
+### 2. Add my Profile Image
 
-1. Place your photo in `public/images/`
+1. Place my photo in `public/images/`
 2. Update the `image` field in `resume.json`
 
-### 3. Add Your PDF Resume
+### 3. Add my PDF Resume
 
-1. Place your PDF resume in `public/storage/`
+1. Place my PDF resume in `public/storage/`
 2. Update the filename in `ResumeController.php` if needed
 
 ## 🎨 Customization
@@ -207,12 +207,12 @@ php artisan view:cache
 
 ### Environment Variables
 
-Set these in your production `.env`:
+Set these in my production `.env`:
 
 ```env
 APP_ENV=production
 APP_DEBUG=false
-APP_URL=https://your-domain.com
+APP_URL=https://my-domain.com
 ```
 
 ## 🔧 Development
@@ -282,7 +282,7 @@ Each data object includes:
 
 1. Fork the repository
 2. Create a feature branch
-3. Make your changes
+3. Make my changes
 4. Add tests if applicable
 5. Submit a pull request
 
@@ -298,4 +298,4 @@ This project is open-sourced software licensed under the [MIT license](https://o
 
 ---
 
-**Note**: Remember to clear the cache (`php artisan cache:clear`) after updating your resume data to see changes immediately.
+**Note**: Remember to clear the cache (`php artisan cache:clear`) after updating my resume data to see changes immediately.
