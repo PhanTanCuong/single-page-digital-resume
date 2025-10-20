@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Http\Request;
+use App\DataObjects\Resume;
 
 class ResumeController extends Controller
 {
@@ -18,7 +19,7 @@ class ResumeController extends Controller
         return view(
             'resume',
             [
-                'resumeData' => $resumeData,
+                'resume' => Resume::fromArray($resumeData),
             ]
         );
     }
