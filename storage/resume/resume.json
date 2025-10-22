@@ -6,13 +6,13 @@
     "email": "phantancuong2002@gmail.com",
     "phone": "0971 642 642",
     "url": "",
-    "summary": "",
+    "summary": "I am Phan Tan Cuong, a final-year student majoring in Information Technology at Ho Chi Minh City University of Technology and Education (HCMUTE).Driven by a strong foundation in core IT principles, I have actively sought practical experience to apply my knowledge. I am particularly interested in Mobile Application Development and possess hands-on experience in building and optimizing scalable applications.I am highly motivated to contribute to the success of challenging projects and am eager to leverage my skills to meet the requirements of the Mobile Developer position advertised, where I believe my academic background and practical experience align perfectly with your team’s needs.",
     "location": {
-      "address": "",
-      "postalCode": "",
+      "address": " Binh Tri Dong Ward",
+      "postalCode": "00700",
       "city": "Ho Chi Minh City",
       "countryCode": "VN",
-      "region": ""
+      "region": "VN"
     },
     "profiles": [
       {
@@ -115,19 +115,59 @@
   "languages": [],
   "interests": [],
   "references": [],
-  "projects": [
-    {
-      "name": "Master Thesis: An E-learning Website",
-      "startDate": "2024-09-01",
-      "endDate": "2024-12-31",
-      "description": "Built an E-learning platform with e-commerce features using the MERN stack.",
-      "highlights": [
-        "Built an E-learning platform with e-commerce features using the MERN stack.",
-        "Developed core features: user management, authentication, orders, and notifications.",
-        "Designed homepage, admin dashboard, and payment interface.",
-        "Integrated Stripe API for online payment processing."
-      ],
-      "url": "https://github.com/aityvo987/CapstoneProjectLMS.git"
-    }
-  ]
+"projects": [
+  {
+    "name": "A Drivehub Delivery Mobile App",
+    "startDate": "2023-10-01",
+    "endDate": "2023-12-31",
+    "description": "A mobile delivery application providing real-time booking and payment features.",
+    "highlights": [
+      "Integrated PayPal API for the online payment.",
+      "Developed a currency conversion function that automatically converts USD to VND.",
+      "Implemented a ride booking function for customers and an accept booking request function for drivers.",
+      "Created a feature displaying ride history for both customers and drivers."
+    ],
+    "url": "https://github.com/sangnguyen02/Ecommerce.git"
+  },
+  {
+    "name": "Android Download Manager",
+    "startDate": "2024-06-01",
+    "endDate": "2024-08-31",
+    "description": "A modern Android app for downloading files via URLs with progress tracking and Material Design.",
+    "highlights": [
+      "Developed an Android app for downloading files via URLs with real-time progress tracking, pause/resume, and a clean Material Design interface.",
+      "Integrated DownloadManager API, AsyncTask, and BroadcastReceiver for efficient background operations and real-time notifications.",
+      "Managed full application lifecycle including UI design, permission handling, debugging, and performance optimization."
+    ],
+    "url": "https://github.com/PhanTanCuong/Download-Manager.git"
+  },
+  {
+    "name": "Master Thesis: An E-learning Website",
+    "startDate": "2024-09-01",
+    "endDate": "2024-12-31",
+    "description": "Built an E-learning platform with e-commerce features using the MERN stack.",
+    "highlights": [
+      "Developed core features: user management, authentication, orders, and notifications.",
+      "Designed homepage, admin dashboard, and payment interface.",
+      "Conducted API testing using Postman.",
+      "Performed manual functional testing on key modules."
+    ],
+    "url": "https://github.com/aityvo987/CapstoneProjectLMS.git"
+  },
+  {
+    "name": "Single Page Digital Resume",
+    "startDate": "2025-09-01",
+    "endDate": "2025-10-31",
+    "description": "A modern, single-page digital resume built with Laravel and Tailwind CSS.",
+    "highlights": [
+      "Built a modern, single-page digital resume using Laravel 12 and Tailwind CSS, featuring a responsive and elegant layout.",
+      "Designed modular Blade components and implemented JSON-based data handling for clean, maintainable architecture.",
+      "Integrated caching system and PDF export functionality to enhance performance and usability.",
+      "Implemented PHPUnit test cases to ensure stability, data accuracy, and functional reliability.",
+      "Debugged and optimized UI responsiveness, ensuring cross-browser and cross-device compatibility."
+    ],
+    "url": "https://github.com/PhanTanCuong/single-page-digital-resume.git"
+  }
+]
+
 }
