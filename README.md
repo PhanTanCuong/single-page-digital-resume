@@ -1,7 +1,7 @@
 # Single Page Digital Resume
 
 A modern, responsive digital resume built with Laravel 12 and Tailwind CSS. This project creates a beautiful, single-page resume website that displays professional information in an elegant, mobile-friendly format.
-
+Live demo: [https://phancuong3107.xyz/](https://phancuong3107.xyz/)
 ## 🚀 Features
 
 - **Modern Design**: Clean, professional layout with gradient backgrounds and smooth animations
